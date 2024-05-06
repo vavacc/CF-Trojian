@@ -1,10 +1,10 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
-const proxyIPs = ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'workers.cloudflare.cyou'];
+const proxyIPs = [HK.vavaee.tk','US.vavaee.tk','KR.vavaee.tk','JP.vavaee.tk','SG.vavaee.tk','NL.vavaee.tk'];
 
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
-let sha224Password = '08f32643dbdacf81d0d511f1ee24b06de759e90f8edf742bbdc57d88';
+let sha224Password = '37a36e3a9e78b80cb5efeb7441ec6d92e832e7dcc93e25c4bd8845e2';
 
 const worker_default = {
    /**
